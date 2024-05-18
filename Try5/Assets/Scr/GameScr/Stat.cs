@@ -27,8 +27,10 @@ public class Stat : MonoBehaviour
     public float maxStamina=100f;
     public float minStamina=100f;
 
-    public int curTurn=12;
+    public int curTurn=52;
     public int countingTurn=0;
+
+    public int year=0;
     //public int givedTrun=12;
 
     void Awake()
@@ -54,6 +56,7 @@ public class Stat : MonoBehaviour
     {
         curTurn -= 1;
         countingTurn += 1;
+        stamina -= 30f;
     }
 
     //나중에 상속으로 하든 뭘하든 정리 할 것
@@ -72,6 +75,7 @@ public class Stat : MonoBehaviour
         if (curTurn > 0)
         {
             intel += 300;
+            TurnManagement();
         }
     }
 
@@ -80,6 +84,7 @@ public class Stat : MonoBehaviour
         if (curTurn > 0)
         {
             leader += 300;
+            TurnManagement();
         }
     }
 
@@ -88,6 +93,7 @@ public class Stat : MonoBehaviour
         if (curTurn > 0)
         {
             wisdom += 300;
+            TurnManagement();
         }
     }
 }

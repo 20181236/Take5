@@ -40,6 +40,8 @@ public class GrowBt : MonoBehaviour
     public GameObject mainUiObj;
     public GameObject nextToEventPage;//EventPage
 
+    public EventPageUI eventPageUIClass;
+
 
     // Start is called before the first frame update
     void Start()
@@ -123,10 +125,11 @@ public class GrowBt : MonoBehaviour
     {
         //버튼들만 끄ㅜ면될듯
         GrowBtDisActive();
-
         //이벤트 페이지 켜져야됨
         nextToEventPage.SetActive(true);
         ActivateAllChildren(nextToEventPage);
+                //동시에
+        //eventPageUIClass.DisplayEventText();
     }
 
     public void GrowBtActive()

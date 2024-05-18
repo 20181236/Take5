@@ -27,7 +27,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "2",
@@ -56,7 +57,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
     },
     {
       "No": "3",
@@ -70,10 +72,7 @@
       "SelectText3": "재산과 병력 모두 지원하기",
       "ResultText1": "재난 구호를 위해 재산을 지원하여 피해를 복구하도록 하였습니다.",
       "ResultText2": "재난 구호를 위해 병력을 지원하여 피해를 복구하도록 하였습니다.",
-      "ResultText3": [
-        "재난 구호를 위해 재산과 병력 모두를 지원하였더니",
-        "피해를 빠르게 복구하기 시작했습니다."
-      ],
+      "ResultText3": "재난 구호를 위해 재산과 병력 모두를 지원하였다. 피해를 빠르게 복구하기 시작했습니다.",
       "SelectMoney": null,
       "SelectArmy": null,
       "SelectFaith": null,
@@ -88,7 +87,11 @@
       "ThirdSelectArmy": "5000",
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "5000"
+      "ThirdSelectPolitics": "5000",
+      "Category": [
+        "Army",
+        "Politics"
+      ]
     },
     {
       "No": "4",
@@ -100,10 +103,7 @@
       "SelectText1": "조건 받아들이기",
       "SelectText2": "재협상하기",
       "SelectText3": null,
-      "ResultText1": [
-        "조건을 받아들여 협상은 마무리 되었습니다만",
-        "많은 이득을 취할 수 는 없었습니다."
-      ],
+      "ResultText1": "조건을 받아들여 협상은 마무리 되었습니다만 많은 이득을 취할 수 는 없었습니다.",
       "ResultText2": "재협상을 통해 이전보다 좋은 조건을 협상하여  많은 이득을 취할 수 있었습니다.",
       "ResultText3": null,
       "SelectMoney": "5000",
@@ -120,14 +120,18 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Money",
+        "Politics"
+      ]
     },
     {
       "No": "5",
       "Name": "종교 행사 개최",
       "EventText": "종교 축제가 개최될 예정입니다. 안전과 평안을 위한 주의사항이 안내될 것입니다. 모두가 특별한 순간을 나누기를 기대합니다.",
       "UseStamina": "30",
-      "SecondSelectUseStamina": "20",
+      "SecondSelectUseStamina": "30",
       "ThirdSelectUseStamina": null,
       "SelectText1": "축제를 즐기자!",
       "SelectText2": "우천으로 인해 축제가 취소됐다.",
@@ -149,15 +153,13 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Faith"
     },
     {
       "No": "6",
       "Name": "과거 문명의 발견",
-      "EventText": [
-        "어느 동굴에서 과거 문명이 발견되었다는 소식입니다. 발견된 문명은 상당히 오래되어 보이는데",
-        "중요한 역할을 할까요?"
-      ],
+      "EventText": "어느 동굴에서 과거 문명이 발견되었다는 소식입니다. 발견된 문명은 상당히 오래되어 보인다 중요한 역할을 할까요?",
       "UseStamina": "40",
       "SecondSelectUseStamina": "40",
       "ThirdSelectUseStamina": "30",
@@ -181,7 +183,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": "-3000",
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
     },
     {
       "No": "7",
@@ -196,7 +199,7 @@
       "ResultText1": "이 자원은 나라의 미래를 바꿀 지도 모릅니다.",
       "ResultText2": "아쉽게도 이 자원은 쓸모 없어 보입니다. 언젠가 쓸 일이 있겠죠?",
       "ResultText3": null,
-      "SelectMoney": "3000",
+      "SelectMoney": null,
       "SelectArmy": null,
       "SelectFaith": null,
       "SelectScience": "3000",
@@ -204,13 +207,14 @@
       "SecondSelectMoney": null,
       "SecondSelectArmy": null,
       "SecondSelectFaith": null,
-      "SecondSelectScience": "5000",
+      "SecondSelectScience": "-5000",
       "SecondSelectPolitics": null,
       "ThirdSelectMoney": null,
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
     },
     {
       "No": "8",
@@ -219,7 +223,7 @@
       "UseStamina": "15",
       "SecondSelectUseStamina": null,
       "ThirdSelectUseStamina": null,
-      "SelectText1": "공사 시작",
+      "SelectText1": "어떤 공원이 완성될까?",
       "SelectText2": null,
       "SelectText3": null,
       "ResultText1": "국민들이 휴식 공간이 늘어나자 여가를 편히 보내고 있는 것 같습니다.",
@@ -239,7 +243,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
     },
     {
       "No": "9",
@@ -268,14 +273,15 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "20000"
+      "ThirdSelectPolitics": "20000",
+      "Category": "Politics"
     },
     {
       "No": "10",
       "Name": "아카데미 방문",
       "EventText": "나라를 위해 헌신할 인재들을 모집하고 있습니다.",
       "UseStamina": "20",
-      "SecondSelectUseStamina": "10",
+      "SecondSelectUseStamina": "20",
       "ThirdSelectUseStamina": null,
       "SelectText1": "수업 참여하기",
       "SelectText2": "아카데미 둘러보기",
@@ -297,12 +303,13 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
     },
     {
       "No": "11",
       "Name": "종교의 믿음",
-      "EventText": "당신은 사후세계가 존재하다고 생각하나요?",
+      "EventText": "사후세계가 존재한다고 생각하시나요?",
       "UseStamina": "10",
       "SecondSelectUseStamina": "10",
       "ThirdSelectUseStamina": null,
@@ -326,14 +333,18 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Faith",
+        "Science"
+      ]
     },
     {
       "No": "12",
       "Name": "과학적 발견",
       "EventText": "국내 과학 연구소에서 어떠한 발견이 이루어졌다는 소식입니다.",
       "UseStamina": "40",
-      "SecondSelectUseStamina": "30",
+      "SecondSelectUseStamina": "20",
       "ThirdSelectUseStamina": null,
       "SelectText1": "이건 엄청난 발견이다!",
       "SelectText2": "에이.. 별거 아닌거 같은데",
@@ -355,7 +366,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
     },
     {
       "No": "13",
@@ -370,7 +382,7 @@
       "ResultText1": "운이 좋으시군요.",
       "ResultText2": "운이 정말 좋으시군요.",
       "ResultText3": "운이 나쁘시군요.",
-      "SelectMoney": null,
+      "SelectMoney": "3000",
       "SelectArmy": null,
       "SelectFaith": null,
       "SelectScience": null,
@@ -384,7 +396,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "14",
@@ -394,10 +407,7 @@
       "SecondSelectUseStamina": "20",
       "ThirdSelectUseStamina": null,
       "SelectText1": "A는 죄가 없다.",
-      "SelectText2": [
-        "A가 저지른 짓",
-        "살인은 살인이다."
-      ],
+      "SelectText2": "A가 저지른 짓 살인은 살인이다.",
       "SelectText3": null,
       "ResultText1": "A는 죄가 없다고 판단하셨군요. 정답은 당신의 선택대로에요. 왜냐고요? 당신은 왕이잖아요.",
       "ResultText2": "A는 죄가 있다고 판단하셨군요. 정답은 당신의 선택대로에요. 왜냐고요? 당신은 왕이잖아요.",
@@ -416,7 +426,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
     },
     {
       "No": "15",
@@ -424,7 +435,7 @@
       "EventText": "많은 유물이 출토되어 이들을 전시할 박물관을 설립하였습니다. 이 유물들을 보세요. 가슴이 웅장해지지 않나요?",
       "UseStamina": "20",
       "SecondSelectUseStamina": "20",
-      "ThirdSelectUseStamina": null,
+      "ThirdSelectUseStamina": "30",
       "SelectText1": "유물 전시 관람하기",
       "SelectText2": "유물 역사 알아보기",
       "SelectText3": "유물 발굴",
@@ -445,15 +456,16 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": "10000",
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
     },
     {
       "No": "16",
       "Name": "술 규제 강화법",
       "EventText": "올바른 음주 문화를 위해 술을 규제하기 시작했습니다만... 작은 볼멘소리가 들리는 것 같습니다.",
       "UseStamina": "25",
-      "SecondSelectUseStamina": "35",
-      "ThirdSelectUseStamina": null,
+      "SecondSelectUseStamina": "25",
+      "ThirdSelectUseStamina": "35",
       "SelectText1": "술 교육 세미나",
       "SelectText2": "대체 음료 개발",
       "SelectText3": "술 없는 파티??",
@@ -474,7 +486,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": "5000",
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
     },
     {
       "No": "17",
@@ -503,7 +516,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Faith"
     },
     {
       "No": "18",
@@ -532,7 +546,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
     },
     {
       "No": "19",
@@ -561,7 +576,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Army",
+        "Politics"
+      ]
     },
     {
       "No": "20",
@@ -570,10 +589,7 @@
       "UseStamina": "40",
       "SecondSelectUseStamina": "40",
       "ThirdSelectUseStamina": null,
-      "SelectText1": [
-        "정황만 있을 뿐",
-        "증거는 없다. 그대로 두자"
-      ],
+      "SelectText1": "정황만 있을 뿐이다. 증거는 없다. 그대로 두자",
       "SelectText2": "스파이가 분명하다. 보안을 강화하자",
       "SelectText3": null,
       "ResultText1": "당신의 실수로 기밀 자료가 유출되었습니다. 소 잃고 외양간 고치기네요.",
@@ -593,7 +609,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
     },
     {
       "No": "21",
@@ -622,7 +639,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": "5000",
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "-5000"
+      "ThirdSelectPolitics": "-5000",
+      "Category": [
+        "Faith",
+        "Politics"
+      ]
     },
     {
       "No": "22",
@@ -651,7 +672,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Money",
+        "Politics"
+      ]
     },
     {
       "No": "23",
@@ -680,7 +705,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
     },
     {
       "No": "24",
@@ -709,15 +735,19 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Money",
+        "Politics"
+      ]
     },
     {
       "No": "25",
       "Name": "홍수",
       "EventText": "어느 지역에 홍수가 발생했습니다. 당신은 무엇을 가장 먼저 해야할까요?",
       "UseStamina": "35",
-      "SecondSelectUseStamina": "45",
-      "ThirdSelectUseStamina": null,
+      "SecondSelectUseStamina": "35",
+      "ThirdSelectUseStamina": "10",
       "SelectText1": "이재민을 위한 대피소 설치 및 운영",
       "SelectText2": "이재민들의 지역 재건",
       "SelectText3": "그들이 알아서 하지 않을까?",
@@ -738,7 +768,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "-15000"
+      "ThirdSelectPolitics": "-15000",
+      "Category": "Politics"
     },
     {
       "No": "26",
@@ -747,7 +778,7 @@
       "UseStamina": "15",
       "SecondSelectUseStamina": null,
       "ThirdSelectUseStamina": null,
-      "SelectText1": "도로 건설 시작!",
+      "SelectText1": "도로 건설 시작",
       "SelectText2": null,
       "SelectText3": null,
       "ResultText1": "도로가 개척된다면 사람들은 이 도로로 많은 왕래를 할 것으로 예상됩니다.",
@@ -767,7 +798,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "27",
@@ -796,7 +828,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Faith"
     },
     {
       "No": "28",
@@ -825,7 +858,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "20000"
+      "ThirdSelectPolitics": "20000",
+      "Category": "Politics"
     },
     {
       "No": "29",
@@ -854,7 +888,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "30",
@@ -883,7 +918,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "15000"
+      "ThirdSelectPolitics": "15000",
+      "Category": [
+        "Money",
+        "Politics"
+      ]
     },
     {
       "No": "31",
@@ -912,7 +951,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "32",
@@ -941,7 +981,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Army",
+        "Politics"
+      ]
     },
     {
       "No": "33",
@@ -970,7 +1014,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
     },
     {
       "No": "34",
@@ -999,17 +1044,18 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
     },
     {
       "No": "35",
       "Name": "특산품 수출",
       "EventText": "우리나라에서만 생산되는 특산품을 외국에 수출하려 합니다.",
       "UseStamina": "30",
-      "SecondSelectUseStamina": "45",
+      "SecondSelectUseStamina": "20",
       "ThirdSelectUseStamina": null,
-      "SelectText1": "특산품 무역",
-      "SelectText2": "특산품을 실은 배에 문제가?",
+      "SelectText1": "특산품 무역 협상",
+      "SelectText2": "큰 일이 일어난 것 같습니다.",
       "SelectText3": null,
       "ResultText1": "무역 협상과 계약이 체결되면  엄청난 이득을 볼 것으로 예상됩니다.",
       "ResultText2": "특산품을 실은 배가 암초에 걸려 난파가 되었다는 소식입니다.",
@@ -1028,7 +1074,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "36",
@@ -1057,7 +1104,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
     },
     {
       "No": "37",
@@ -1086,7 +1134,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Faith"
     },
     {
       "No": "38",
@@ -1115,20 +1164,17 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Faith"
     },
     {
       "No": "39",
       "Name": "입영통지서",
-      "EventText": [
-        "가족과 나라를 지켜줄 군인이 되고싶은 자를 모집하고 있습니다. [의식주 보장",
-        "4대 보험",
-        "급여 지급]"
-      ],
+      "EventText": "가족과 나라를 지켜줄 군인이 되고싶은 자를 모집하고 있습니다. [의식주 보장  4대 보험 급여 지급]",
       "UseStamina": "25",
       "SecondSelectUseStamina": null,
       "ThirdSelectUseStamina": null,
-      "SelectText1": "훌륭한 군인이 되려면",
+      "SelectText1": "이게 다 입대 희망자라고?",
       "SelectText2": null,
       "SelectText3": null,
       "ResultText1": "당신이 배포한 입영통지서를 보고 많은 사람들이 입대를 희망하고 있습니다.",
@@ -1148,15 +1194,13 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
     },
     {
       "No": "40",
       "Name": "스포츠 대회",
-      "EventText": [
-        "스포츠 대회를 계획하고 있습니다. 팀 스포츠와 개인 스포츠",
-        "어떤 것을 하는 것이 좋을까요?"
-      ],
+      "EventText": "스포츠 대회를 계획하고 있습니다. 팀 스포츠와 개인 스포츠 어떤 것을 하는 것이 좋을까요?",
       "UseStamina": "15",
       "SecondSelectUseStamina": "15",
       "ThirdSelectUseStamina": null,
@@ -1180,15 +1224,16 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "41",
       "Name": "유랑극단",
       "EventText": "유명한 유랑극단이 곳곳을 순항하며 공연을 한다합니다. 어떤 극을 선보일까요?",
-      "UseStamina": "50",
-      "SecondSelectUseStamina": "50",
-      "ThirdSelectUseStamina": null,
+      "UseStamina": "35",
+      "SecondSelectUseStamina": "35",
+      "ThirdSelectUseStamina": "55",
       "SelectText1": "희극",
       "SelectText2": "비극",
       "SelectText3": "정치극",
@@ -1209,7 +1254,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "20000"
+      "ThirdSelectPolitics": "20000",
+      "Category": [
+        "Money",
+        "Politics"
+      ]
     },
     {
       "No": "42",
@@ -1222,10 +1271,7 @@
       "SelectText2": "명화를 가져간다.",
       "SelectText3": "둘 다 가져간다.",
       "ResultText1": "엄청나게 화려한 보석들입니다. 이 보석들의 가치는 얼마나 될까요?",
-      "ResultText2": [
-        "오래전 저명한 미술가가 그린 그림입니다. 도난당한 뒤 흔적을 찾을 수 없었는데",
-        "이 탐험가가 훔친 것일까요?"
-      ],
+      "ResultText2": "오래전 저명한 미술가가 그린 그림입니다. 도난당한 뒤 흔적을 찾을 수 없었다.이 탐험가가 훔친 것일까?",
       "ResultText3": "당신은 욕심이 많은 인물입니다. 하지만 나쁘진 않네요. 어차피 이제 주인은 없잖아요?",
       "SelectMoney": "15000",
       "SelectArmy": null,
@@ -1241,14 +1287,15 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "43",
       "Name": "친선전",
       "EventText": "최고의 기사들이 친목을 도모하기 위한 친선전이 펼쳐질 예정입니다.",
       "UseStamina": "15",
-      "SecondSelectUseStamina": "25",
+      "SecondSelectUseStamina": "15",
       "ThirdSelectUseStamina": null,
       "SelectText1": "기사들의 용맹함에 찬사를 보냅니다.",
       "SelectText2": "저런! 사고가 난 거 같아요",
@@ -1265,12 +1312,13 @@
       "SecondSelectArmy": "-10000",
       "SecondSelectFaith": null,
       "SecondSelectScience": null,
-      "SecondSelectPolitics": "-10000",
+      "SecondSelectPolitics": null,
       "ThirdSelectMoney": null,
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
     },
     {
       "No": "44",
@@ -1283,8 +1331,8 @@
       "SelectText2": "위조 지폐를 발행한 자를 찾아야 한다.",
       "SelectText3": "아직 큰 문제가 되지 않았으니 그대로 둔다.",
       "ResultText1": "당신은 위조 지폐를 사용한 자를 처벌했습니다. 하지만 근본적인 문제는 해결되려면 먼 것 같습니다.",
-      "ResultText2": null,
-      "ResultText3": null,
+      "ResultText2": "당신은 위조 지폐를 발행한 자를 찾아내 처벌했습니다. 이 사건을 통해 시장 경제에 문제가 생기지는 않을 것 같습니다.",
+      "ResultText3": "당신은 위조 지폐의 범인을 찾는 시기를 놓치게 되었습니다. 결국 시장 경제가 붕괴되기 시작했습니다.",
       "SelectMoney": "10000",
       "SelectArmy": null,
       "SelectFaith": null,
@@ -1299,7 +1347,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": "-10000",
+      "Category": [
+        "Money",
+        "Politics"
+      ]
     },
     {
       "No": "45",
@@ -1328,7 +1380,12 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "15000"
+      "ThirdSelectPolitics": "15000",
+      "Category": [
+        "Money",
+        "Faith",
+        "Politics"
+      ]
     },
     {
       "No": "46",
@@ -1357,7 +1414,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Faith"
     },
     {
       "No": "47",
@@ -1366,13 +1424,10 @@
       "UseStamina": "15",
       "SecondSelectUseStamina": "20",
       "ThirdSelectUseStamina": null,
-      "SelectText1": "아직 큰 피해는 없다.",
+      "SelectText1": "아직 큰 피해는 없다. 나중에 파견해도 괜찮지 않을까?",
       "SelectText2": "어서 병력을 파견하여 짐승 무리를 처단하자",
       "SelectText3": null,
-      "ResultText1": [
-        "아직 큰 피해가 없어 놔두기로 하였습니다. 하지만 며칠 뒤",
-        "결국 사상자가 생기고 말았습니다."
-      ],
+      "ResultText1": "아직 큰 피해가 없어 놔두기로 하였습니다. 하지만 며칠 뒤에 결국 사상자가 생기고 말았습니다.",
       "ResultText2": "짐승 무리를 처치하고 쫓아냈습니다. 덕분에 거리는 다시 안전해진 것 같습니다.",
       "ResultText3": null,
       "SelectMoney": null,
@@ -1389,7 +1444,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Army",
+        "Politics"
+      ]
     },
     {
       "No": "48",
@@ -1403,10 +1462,7 @@
       "SelectText3": "나만의 길을 개척한다.",
       "ResultText1": "초대 왕의 평가는 그리 좋은 왕은 아닌 것으로 기록되어 있었습니다. 하지만 왕이 되고 난 이후에는 점차 나아지는 것으로 기록되어 있네요.",
       "ResultText2": "선대 왕의 평가는 훌륭한 성군으로 기록되어 있었습니다. 당신도 이 길을 따라 가기로 결정한 것일까요?",
-      "ResultText3": [
-        "당신은 당신만의 길을 개척해 나가기로 결정하였습니다. 아직 모르는 것 투성이지만",
-        "훌륭한 왕이 될 것이라 믿어 의심치 않습니다."
-      ],
+      "ResultText3": "당신은 당신만의 길을 개척해 나가기로 결정하였습니다. 아직 모르는 것 투성이다. 훌륭한 왕이 될 것이라 믿어 의심치 않습니다.",
       "SelectMoney": null,
       "SelectArmy": null,
       "SelectFaith": null,
@@ -1421,7 +1477,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "25000"
+      "ThirdSelectPolitics": "25000",
+      "Category": "Politics"
     },
     {
       "No": "49",
@@ -1444,21 +1501,22 @@
       "SecondSelectMoney": null,
       "SecondSelectArmy": null,
       "SecondSelectFaith": null,
-      "SecondSelectScience": null,
-      "SecondSelectPolitics": "-15000",
+      "SecondSelectScience": "-10000",
+      "SecondSelectPolitics": null,
       "ThirdSelectMoney": null,
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "-15000"
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
     },
     {
       "No": "50",
       "Name": "랜드마크 건설",
       "EventText": "나라의 대표 랜드마크를 지으려 합니다. 랜드마크가 완공되면 많은 사람들이 이를 보기위해  벌떼처럼 몰려올 것 입니다.",
       "UseStamina": "15",
-      "SecondSelectUseStamina": "25",
-      "ThirdSelectUseStamina": "35",
+      "SecondSelectUseStamina": "15",
+      "ThirdSelectUseStamina": "15",
       "SelectText1": "커다란 정원",
       "SelectText2": "커다란 왕의 동상",
       "SelectText3": "커다란 궁전",
@@ -1479,7 +1537,8 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
     },
     {
       "No": "51",
@@ -1508,7 +1567,11 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": null
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Money",
+        "Science"
+      ]
     },
     {
       "No": "52",
@@ -1521,10 +1584,7 @@
       "SelectText2": "저명한 인사들이 탄 배",
       "SelectText3": "물건이 가득찬 배",
       "ResultText1": "수많은 관광객들이 탄 배가 보입니다. 이들의 웃는 모습을 보세요. 아름답다고 생각하지 않나요?",
-      "ResultText2": [
-        "저명한 인사들이 탄 배가 보입니다. 선상 파티라도 하는 줄 알았더니",
-        "군사 훈련을 참관하러 온 사람들이었나 봅니다."
-      ],
+      "ResultText2": "저명한 인사들이 탄 배가 보입니다. 선상 파티라도 하는 줄 알았으나 군사 훈련을 참관하러 온 사람들이었나 봅니다.",
       "ResultText3": "물건이 가득찬 배가 보입니다. 이제는 많은 외국들이 우리나라와 교류를 원하는 모습으로 보여 뿌듯하네요.",
       "SelectMoney": "20000",
       "SelectArmy": null,
@@ -1540,7 +1600,781 @@
       "ThirdSelectArmy": null,
       "ThirdSelectFaith": null,
       "ThirdSelectScience": null,
-      "ThirdSelectPolitics": "20000"
+      "ThirdSelectPolitics": "20000",
+      "Category": [
+        "Money",
+        "Army",
+        "Politics"
+      ]
+    },
+    {
+      "No": "53",
+      "Name": "로얄 가드",
+      "EventText": "왕을 보호할 친위대를 만들기 위해 특출난 병사들을 모집하고 있습니다. 어떤 병사들을 모집하시겠습니까?",
+      "UseStamina": "30",
+      "SecondSelectUseStamina": "40",
+      "ThirdSelectUseStamina": "50",
+      "SelectText1": "일반 병사",
+      "SelectText2": "견습 기사",
+      "SelectText3": "기사",
+      "ResultText1": "일반 병사들로 로얄 가드를 만들었습니다. 하지만 이들은 어수룩해 보이네요.",
+      "ResultText2": "견습 기사들로 로얄 가드를 만들었습니다. 훈련은 되어있지만 어딘가 모자란 느낌입니다.",
+      "ResultText3": "기사들로 로얄 가드를 만들었습니다. 이들은 모두 용맹하고 훈련이 잘 되어 있습니다.",
+      "SelectMoney": null,
+      "SelectArmy": "10000",
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": "20000",
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": "30000",
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
+    },
+    {
+      "No": "54",
+      "Name": "왕실 연회",
+      "EventText": "왕실에서 귀족들과 연회를 하려합니다.",
+      "UseStamina": "15",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "연회가 시작되었습니다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "당신은 수 많은 귀족들을 만나며 이야기를 나누었습니다. 피곤하기도 하지만 이런 분위기도 괜찮네요.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": "20000",
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
+    },
+    {
+      "No": "55",
+      "Name": "새로운 무기",
+      "EventText": "국가의 안보를 위해 새로운 무기를 개발하려 합니다.",
+      "UseStamina": "20",
+      "SecondSelectUseStamina": "20",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "아직 새로운 무기를 만들 때는 아닌 듯 하다.",
+      "SelectText2": "국가 안보를 위해 개발해야 한다.",
+      "SelectText3": null,
+      "ResultText1": "당신은 무기 개발을 중단시켰습니다. 하지만 이 판단은 국가 안보를 위협할 수 있습니다.",
+      "ResultText2": "당신의 판단으로 새로운 무기가 개발되었습니다. 이는 국가 안보에 도움이 된 것 같습니다.",
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": "20000",
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": "20000",
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
+    },
+    {
+      "No": "56",
+      "Name": "도서관 설립",
+      "EventText": "국민들의 수준을 높이기 위해 도서관을 설립하려 합니다.",
+      "UseStamina": "30",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "도서관 설립",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "수 많은 사람들이 도서관을 다니며 많은 사람들이 지식이 상승하는 것으로 보입니다.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": "15000",
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
+    },
+    {
+      "No": "57",
+      "Name": "정원사의 실수",
+      "EventText": "당신이 아끼는 나무를 실수로 자른 정원사를 어떻게 할까요?",
+      "UseStamina": "25",
+      "SecondSelectUseStamina": "25",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "해고한다.",
+      "SelectText2": "용서한다.",
+      "SelectText3": null,
+      "ResultText1": "당신은 정원사를 해고했습니다. 사람들은 관용을 베풀지 않는 왕이라며 좋지 않은 시선으로 보는 것 같습니다.",
+      "ResultText2": "당신은 정원사를 용서해 주었습니다. 사람들은 관용을 베푸는 왕이라며 좋은 시선으로 보는 것 같습니다.",
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": "-20000",
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": "20000",
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
+    },
+    {
+      "No": "58",
+      "Name": "신도 감사 축제",
+      "EventText": "기존 신도들에게 감사의 마음을 전하고 새로운 신도들을 환영하기 위한 환영식을 열려고 합니다.",
+      "UseStamina": "10",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "환영식 시작",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "기존 신도들은 유대감이 강화되었고 새로운 신도들에게는 좋은 인상을 준 듯 합니다.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": "20000",
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Faith"
+    },
+    {
+      "No": "59",
+      "Name": "위험한 실험",
+      "EventText": "만약 이 실험이 윤리적인 문제가 있다면 실험을 허가 하시겠습니까?",
+      "UseStamina": "15",
+      "SecondSelectUseStamina": "15",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "허가한다.",
+      "SelectText2": "허가하지 않는다.",
+      "SelectText3": null,
+      "ResultText1": "비록 이 실험은 윤리적인 문제가 있지만 과학 수준을 상승시킬 수 있습니다.",
+      "ResultText2": "윤리적인 문제가 있다면 이 실험은 당연히 시행되면 안됩니다.",
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": "25000",
+      "SelectPolitics": "-10000",
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": "10000",
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Science",
+        "Politics"
+      ]
+    },
+    {
+      "No": "60",
+      "Name": "왕실 예절",
+      "EventText": "왕실의 예절을 알기 위해 오래 전부터 일해온 유모에게 가르침을 받으려고 합니다.",
+      "UseStamina": "20",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "가르침을 받는다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "당신은 식기의 잡는 방법이나 순서  인사 방법 등 다양한 왕실의 예절을 배울 수 있었습니다.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": "20000",
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
+    },
+    {
+      "No": "61",
+      "Name": "별이 빛나는 밤에",
+      "EventText": "밤 하늘에 별을 보며 당신은 문득 생각에 잠겼습니다.",
+      "UseStamina": "10",
+      "SecondSelectUseStamina": "10",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "신화 이야기를 생각했다.",
+      "SelectText2": "달과 별은 어떻게 빛나는걸까?",
+      "SelectText3": null,
+      "ResultText1": "사람이 죽으면 별이 되어 올라가고 아기가 태어나면 별똥별이 내려온다는 이야기가 전해져 내려오고 있습니다. 아름다운 이야기지 않나요?",
+      "ResultText2": "밤 하늘을 밝게 빛나게 해주는 저 달과 별은 어떻게 빛나는 걸까요? 궁금하지 않으신가요? 한 번 연구해볼까요?",
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": "20000",
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": "20000",
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Faith",
+        "Science"
+      ]
+    },
+    {
+      "No": "62",
+      "Name": "지식학회",
+      "EventText": "자신의 연구를 소개하며 미해결 문제를 해결해 나가는 지식인들의 모임  지식학회가 열립니다.",
+      "UseStamina": "15",
+      "SecondSelectUseStamina": "15",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "지식학회에 참여한다.",
+      "SelectText2": "알아 들을 수 있을까?",
+      "SelectText3": null,
+      "ResultText1": "당신은 높은 수준의 연구 내용을 들을 수 있었고  이들과 함께 대화를 나눌 수 있었습니다.",
+      "ResultText2": "당신은 지식학회에 참여했지만 대부분의 이야기를 알아듣지 못했습니다.",
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": "20000",
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": "-10000",
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
+    },
+    {
+      "No": "63",
+      "Name": "비밀 클럽",
+      "EventText": "귀족의 자제들이 모여 이야기  게임 등 다양한 활동을 하는 비밀 클럽에 한 번 들어가 보시겠습니까?",
+      "UseStamina": "20",
+      "SecondSelectUseStamina": "20",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "참여한다.",
+      "SelectText2": "이상한 곳은 아닐까?",
+      "SelectText3": null,
+      "ResultText1": "안에 들어가자 많은 귀족 자제들이 게임을 하며 즐겁게 놀며 이야기꽃을 피우고 있었습니다. 예상외로 건전한 클럽이였습니다.",
+      "ResultText2": "당신은 비밀 클럽에 참여하지 않았습니다. 하지만 이상한 추문도 생기지 않았습니다. 다행이네요.",
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": "20000",
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": "10000",
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
+    },
+    {
+      "No": "64",
+      "Name": "고급 양장점",
+      "EventText": "우리 나라에 외국의 고급 양장점이 들어선다 합니다. 어느 구에 짓는게 좋을까요?",
+      "UseStamina": "35",
+      "SecondSelectUseStamina": "35",
+      "ThirdSelectUseStamina": "35",
+      "SelectText1": "귀족가",
+      "SelectText2": "상점가",
+      "SelectText3": "빈민가",
+      "ResultText1": "귀족가에 고급 양장점이 들어섰습니다. 많은 귀족들이 고급 정장을 구매하기 위해  맞춤 정장을 주문하기 위해 많이 모여들었습니다.",
+      "ResultText2": "상점가에 고급 양장점이 들어섰습니다. 이용객은 많지는 않지만 구경하는 사람들이 멋진 정장을 보기 위해 기웃거리는 모습이 보입니다.",
+      "ResultText3": "빈민가에 고급 양장점이 들어섰습니다. 하지만 이용객은 없고 파리만 날릴 것으로 예상됩니다.",
+      "SelectMoney": "30000",
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": "15000",
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": "-20000",
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
+    },
+    {
+      "No": "65",
+      "Name": "가면 무도회",
+      "EventText": "자신의 정체를 숨기고 화려한 무대를 즐기는 파티입니다.",
+      "UseStamina": "15",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "노래를 들으며 춤을  춘다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "오랜만에 격식없이 추는 춤  몇몇 사람들이 어렴풋이 정체를 알아챈 것 같지만 뭐 어떤가요?",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": "10000",
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
+    },
+    {
+      "No": "66",
+      "Name": "세례식",
+      "EventText": "신의 자녀가 되었음을 기념하고 기리는 신성한 식이 시작될 예정입니다.",
+      "UseStamina": "15",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "세례식이 시작되었다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "많은 사람들이 세례를 받는 모습이 보입니다. 세례를 받은 이들을 축복하고 기도합시다.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": "25000",
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Faith"
+    },
+    {
+      "No": "67",
+      "Name": "애완 동물",
+      "EventText": "요즘 귀족들 사이에 애완동물을 키우는 것이 유행이라고 합니다. 혹시 관심이 있으신가요?",
+      "UseStamina": "30",
+      "SecondSelectUseStamina": "30",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "한 마리 정도 키워볼까?",
+      "SelectText2": "나는 동물을 좋아하지 않는다.",
+      "SelectText3": null,
+      "ResultText1": "당신은 고민 끝에 애완 동물을 키우기로 결정 했습니다. 애완 동물과 놀다보니 몸과 마음에 여유가 생기는 듯 싶습니다.",
+      "ResultText2": "당신은 고민 끝에 애완 동물을 키우지 않기로 결정 했습니다. 해야할 일이 산더미처럼 많은데 키울 시간이 있을까요?",
+      "ResultText3": null,
+      "SelectMoney": "20000",
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": "10000",
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
+    },
+    {
+      "No": "68",
+      "Name": "축하의 메세지",
+      "EventText": "선왕을 모셔왔던 귀족 중 한 명의 자제가 결혼을 한다는 소식을 전해왔습니다. 정말 축하해야할 일이 아니겠어요?",
+      "UseStamina": "20",
+      "SecondSelectUseStamina": "20",
+      "ThirdSelectUseStamina": "40",
+      "SelectText1": "축하 편지를 보낸다.",
+      "SelectText2": "축하 선물을 보낸다.",
+      "SelectText3": "직접 방문해 축하해준다.",
+      "ResultText1": "당신은 축하가 담긴 편지를 보냈습니다. 사랑의 결실을 맺음에 축하를 보냅니다.",
+      "ResultText2": "당신은 축하를 위해 아기 용품과 보석 등 다양한 선물을 보냈습니다. 사랑의 결실을 맺음에 축하를 보냅니다.",
+      "ResultText3": "당신은 결혼식에 직접 참여하여 축하를 보냈습니다. 그들에게 이만한 선물이 또 있을까요? 사랑의 결실을 맺음에 축하를 보냅니다.",
+      "SelectMoney": "10000",
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": "10000",
+      "SecondSelectMoney": "20000",
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": "20000",
+      "ThirdSelectMoney": "30000",
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": "30000",
+      "Category": [
+        "Money",
+        "Politics"
+      ]
+    },
+    {
+      "No": "69",
+      "Name": "슬럼가의 지배자",
+      "EventText": "굶주린 아이들을 이용하여 범죄를 저지르고 돈을 버는 못된 자가 말썽을 부리고 있습니다.",
+      "UseStamina": "15",
+      "SecondSelectUseStamina": "15",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "이 자를 찾아 붙잡는다.",
+      "SelectText2": "슬럼가에서 발생한 일이다. 무시하자",
+      "SelectText3": null,
+      "ResultText1": "슬럼가의 보스를 붙잡았습니다. 여태껏 그가 모아온 모든 돈을 회수하기 시작했습니다.",
+      "ResultText2": "결국 슬럼가는 범죄가 극성이게 되었고 많은 아이들이 범죄에 손을 대기 시작했습니다.",
+      "ResultText3": null,
+      "SelectMoney": "25000",
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": "25000",
+      "SecondSelectMoney": "-25000",
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": "-25000",
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Money",
+        "Politics"
+      ]
+    },
+    {
+      "No": "70",
+      "Name": "슬럼가의 지배자(2)",
+      "EventText": "슬럼가의 보스가 사라졌습니다. 남겨진 아이들은 어떻게 해야할까요?",
+      "UseStamina": "35",
+      "SecondSelectUseStamina": "35",
+      "ThirdSelectUseStamina": "15",
+      "SelectText1": "종교 시설에 보낸다.",
+      "SelectText2": "군사 교육 시설에 보낸다.",
+      "SelectText3": "알아서 각자도생 하도록 한다.",
+      "ResultText1": "이 아이들은 성직자가 될 수 있고 다른 길로도 갈 수 있지만 범죄자 만큼은 되지 않길 빌고 싶네요.",
+      "ResultText2": "이 아이들은 군인이 될 수 있고 다른 길로도 갈 수 있지만 범죄자 만큼은 되지 않길 빌고 싶네요.",
+      "ResultText3": "범죄에 손 댄 아이들은 어떻게 변화 시키지 못했을까요? 아이들은 또다시 범죄에 손을 대기 시작했습니다.",
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": "25000",
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": "25000",
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": "-25000",
+      "Category": [
+        "Army",
+        "Faith",
+        "Politics"
+      ]
+    },
+    {
+      "No": "71",
+      "Name": "항구 경비대",
+      "EventText": "항구가 점점 발전함에 따라 치안에 문제가 생기기 시작했습니다.",
+      "UseStamina": "25",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "항구에 경비대를 만든다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "항구의 치안을 위해 병력을 파견했습니다. 이들은 항구 경비대로 임명받았고 치안은 다시 좋아지고 있습니다.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": "25000",
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
+    },
+    {
+      "No": "72",
+      "Name": "휴식 시간",
+      "EventText": "계속해서 일만 했더니 몸과 마음이 지쳐갑니다. 가끔은 쉬는 시간이 있어야 하지 않겠어요?",
+      "UseStamina": "10",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "티 타임을 가진다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "향긋한 차를 마시며 휴식을 취합니다. 더 능동적으로 일할 수 있을 것 같습니다.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": "10000",
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Politics"
+    },
+    {
+      "No": "73",
+      "Name": "초상화",
+      "EventText": "왕족들은 모두 초상화가 있으며 가장 큰 벽에 걸려있습니다. 당신도 초상화를 의뢰하였는데  어떤 복장을 입을 지 고민입니다.",
+      "UseStamina": "35",
+      "SecondSelectUseStamina": "35",
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "군복",
+      "SelectText2": "프록 코트",
+      "SelectText3": null,
+      "ResultText1": "멋진 군복을 입은 당신의 모습이 초상화에 담겼습니다. 이를 본 많은 사람들이 남자답고 용맹한 모습이라고 칭찬할 지도 모르겠네요.",
+      "ResultText2": "멋진 프록 코트를 입은 당신의 모습이 초상화에 담겼습니다. 많은 사람들이 깔끔하고 신사다운 모습을 보고 반할 지도 모르겠네요.",
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": "25000",
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": "25000",
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": [
+        "Army",
+        "Politics"
+      ]
+    },
+    {
+      "No": "74",
+      "Name": "조공",
+      "EventText": "왕실 앞에 수 많은 마차들이 보이시나요? 여러 작은 나라에서 우리 나라에 조공을 보낸 것으로 보입니다.",
+      "UseStamina": "50",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "조공을 받는다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "당신은 보석과 특산품 전통 의상 등 다양한 조공품을 보았습니다. 얼마나 많은지 탑을 쌓을 정도라니까요.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": "30000",
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Money"
+    },
+    {
+      "No": "75",
+      "Name": "교환 학생",
+      "EventText": "아카데미 학생들이 외국 유학에 많은 관심을 보이고 있습니다. 이들을 선별하여 유학을 보내도록 합시다.",
+      "UseStamina": "45",
+      "SecondSelectUseStamina": "45",
+      "ThirdSelectUseStamina": "25",
+      "SelectText1": "공부를 잘하는 학생을 선별한다.",
+      "SelectText2": "외국에 많은 관심이 있는 학생을 선별한다.",
+      "SelectText3": "무작위로 선별한다.",
+      "ResultText1": "공부를 잘하는 학생을 선별하여 유학을 보냈습니다. 이들은 외국에서 많은 공부를 하고 훌륭한 성장을 보일 것입니다.",
+      "ResultText2": "외국에 많은 관심이 있는 학생을 선별하여 유학을 보냈습니다. 이들은 외국의 문명과 언어 등 다양한 것을 학습하여 훌륭한 성장을 보일 것입니다.",
+      "ResultText3": "무작위로 선별하여 유학을 보냈습니다. 하지만 의욕이 없는 학생들과 적응을 하지 못하는 학생들이 있어 성과를 기대하기는 어려워 보입니다.",
+      "SelectMoney": null,
+      "SelectArmy": null,
+      "SelectFaith": null,
+      "SelectScience": "25000",
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": "25000",
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": "-15000",
+      "ThirdSelectPolitics": null,
+      "Category": "Science"
+    },
+    {
+      "No": "76",
+      "Name": "예비군 편성",
+      "EventText": "전역한 사람들을 대상으로 혹시 모를 전쟁을 대비해 예비군을 편성하려 합니다.",
+      "UseStamina": "35",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "예비군을 편성했다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "언제 발생할지 모르는 전쟁을 대비하는 것은 군주로서는 당연한 일 아닌가요?",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": "30000",
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
+    },
+    {
+      "No": "77",
+      "Name": "특수 부대",
+      "EventText": "일반 병사들보다 걸출한 군인들을 모아 특수 부대를 편성하려 합니다.",
+      "UseStamina": "45",
+      "SecondSelectUseStamina": null,
+      "ThirdSelectUseStamina": null,
+      "SelectText1": "지원자를 받는다.",
+      "SelectText2": null,
+      "SelectText3": null,
+      "ResultText1": "걸출한 군인을 선별하여 특수 부대를 편성하였습니다. 특수 부대에 들어가기 위해 많은 병사들이 노력을 하는 모습이 보입니다.",
+      "ResultText2": null,
+      "ResultText3": null,
+      "SelectMoney": null,
+      "SelectArmy": "30000",
+      "SelectFaith": null,
+      "SelectScience": null,
+      "SelectPolitics": null,
+      "SecondSelectMoney": null,
+      "SecondSelectArmy": null,
+      "SecondSelectFaith": null,
+      "SecondSelectScience": null,
+      "SecondSelectPolitics": null,
+      "ThirdSelectMoney": null,
+      "ThirdSelectArmy": null,
+      "ThirdSelectFaith": null,
+      "ThirdSelectScience": null,
+      "ThirdSelectPolitics": null,
+      "Category": "Army"
     }
   ]
 }
