@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,6 +22,8 @@ public class EventPageUI : MonoBehaviour
     public float eventRandom = 0.0f;
     public int eventRandomToint = 0;
 
+    public GameObject reportObj;
+    public TMP_Text displayReportText;
 
 
     void Start()
@@ -30,6 +33,7 @@ public class EventPageUI : MonoBehaviour
         selectBtObj3.SetActive(false);
         eventRandom = 0.0f;
         StartCoroutine(DisplayEventTextCoroutine());
+        reportObj.SetActive(false);
     }
 
     void OnEnable()
@@ -71,16 +75,39 @@ public class EventPageUI : MonoBehaviour
     public void Select1()
     {
         OnOff();
+        //결과창 보이기
+        reportObj.SetActive(true);
+        //결과창 텍스트보이기
+        // ReportDataManager에서 데이터 가져오기
+        var reportData = ReportDataManager.Instance.useReportData[eventRandomToint];
+        string reportText = reportData.ResultText1;
+        // for (int i = 0; i < reportText.Length; i++)
+        // {
+        //     displayReportText.text += reportText[i];
+        //     yield return new WaitForSeconds(0.05f);
+        // }
+        StartCoroutine(Typing(reportText));
+        //displayReportText.text = reportText;
+        //결과창 스테미나 상승보이기
+
     }
 
     public void Select2()
     {
         OnOff();
+        reportObj.SetActive(true);
+        var reportData = ReportDataManager.Instance.useReportData[eventRandomToint];
+        string reportText = reportData.ResultText2;
+        displayReportText.text = reportText;
     }
-    
+
     public void Select3()
     {
         OnOff();
+        reportObj.SetActive(true);
+        var reportData = ReportDataManager.Instance.useReportData[eventRandomToint];
+        string reportText = reportData.ResultText3;
+        displayReportText.text = reportText;
     }
 
     public void OnOff()
@@ -165,6 +192,17 @@ public class EventPageUI : MonoBehaviour
             {
                 DeactivateAllChildren(child.gameObject);
             }
+        }
+    }
+
+    IEnumerator Typing(string talk)
+    {
+        //displayReportText.text=null;
+
+        for (int i = 0; i < talk.Length; i++)
+        {
+            displayReportText.text += talk[i];
+            yield return new WaitForSeconds(0.1f);
         }
     }
 
