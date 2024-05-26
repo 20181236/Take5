@@ -86,6 +86,7 @@ public class EventPageUI : MonoBehaviour
         //     displayReportText.text += reportText[i];
         //     yield return new WaitForSeconds(0.05f);
         // }
+        SelectStatUp();
         StartCoroutine(Typing(reportText));
         //displayReportText.text = reportText;
         //결과창 스테미나 상승보이기
@@ -99,6 +100,7 @@ public class EventPageUI : MonoBehaviour
         var reportData = ReportDataManager.Instance.useReportData[eventRandomToint];
         string reportText = reportData.ResultText2;
         displayReportText.text = reportText;
+        SelectStatUp();
     }
 
     public void Select3()
@@ -108,6 +110,7 @@ public class EventPageUI : MonoBehaviour
         var reportData = ReportDataManager.Instance.useReportData[eventRandomToint];
         string reportText = reportData.ResultText3;
         displayReportText.text = reportText;
+        SelectStatUp();
     }
 
     public void OnOff()
@@ -203,6 +206,69 @@ public class EventPageUI : MonoBehaviour
         {
             displayReportText.text += talk[i];
             yield return new WaitForSeconds(0.1f);
+        }
+    }
+
+    public void SelectStatUp()
+    {
+
+        var reportData = ReportDataManager.Instance.useReportData[eventRandomToint];
+        // 각 필드를 nullable int로 선언
+        // 각 필드를 nullable int로 선언
+        int? selectedArmy = reportData.SelectArmy;
+        int? selectedMoney = reportData.SelectMoney;
+        int? selectedFaith = reportData.SelectFaith;
+        int? selectedScience = reportData.SelectScience;
+        int? selectedPolitics = reportData.SelectPolitics;
+
+        // Army 처리
+        if (selectedArmy.HasValue)
+        {
+            Stat.instance.army += selectedArmy.Value;
+        }
+        else
+        {
+            Debug.Log("SelectArmy는 null입니다.");
+        }
+
+        // Money 처리
+        if (selectedMoney.HasValue)
+        {
+            Stat.instance.money += selectedMoney.Value;
+        }
+        else
+        {
+            Debug.Log("SelectMoney는 null입니다.");
+        }
+
+        // Faith 처리
+        if (selectedFaith.HasValue)
+        {
+            Stat.instance.faith += selectedFaith.Value;
+        }
+        else
+        {
+            Debug.Log("SelectFaith는 null입니다.");
+        }
+
+        // Science 처리
+        if (selectedScience.HasValue)
+        {
+            Stat.instance.science += selectedScience.Value;
+        }
+        else
+        {
+            Debug.Log("SelectScience는 null입니다.");
+        }
+
+        // Politics 처리
+        if (selectedPolitics.HasValue)
+        {
+            Stat.instance.politics += selectedPolitics.Value;
+        }
+        else
+        {
+            Debug.Log("SelectPolitics는 null입니다.");
         }
     }
 
