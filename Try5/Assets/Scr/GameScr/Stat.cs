@@ -96,4 +96,13 @@ public class Stat : MonoBehaviour
             TurnManagement();
         }
     }
+
+    public void NextYear()
+    {
+        if(curTurn<=0)
+        {
+            year+=1;
+            curTurn = 50;
+        }
+    }
 }
