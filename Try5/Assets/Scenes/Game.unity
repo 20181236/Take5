@@ -872,7 +872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -43, y: 101}
+  m_AnchoredPosition: {x: 64, y: 101}
   m_SizeDelta: {x: 800, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &216391850
@@ -2709,6 +2709,7 @@ MonoBehaviour:
   eventRandomToint: 0
   reportObj: {fileID: 261918017}
   displayReportText: {fileID: 216391850}
+  displayReportStat: {fileID: 1183600367}
 --- !u!1 &736088650
 GameObject:
   m_ObjectHideFlags: 0
@@ -4085,8 +4086,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -238, y: -181}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -21.2, y: -181}
+  m_SizeDelta: {x: 600, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183600367
 MonoBehaviour:

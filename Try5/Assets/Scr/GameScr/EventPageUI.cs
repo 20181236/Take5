@@ -25,6 +25,8 @@ public class EventPageUI : MonoBehaviour
     public GameObject reportObj;
     public TMP_Text displayReportText;
 
+    public Text displayReportStat;
+
 
     void Start()
     {
@@ -213,7 +215,7 @@ public class EventPageUI : MonoBehaviour
     {
 
         var reportData = ReportDataManager.Instance.useReportData[eventRandomToint];
-        // 각 필드를 nullable int로 선언
+        List<string> selectedValues = new List<string>();
         // 각 필드를 nullable int로 선언
         int? selectedArmy = reportData.SelectArmy;
         int? selectedMoney = reportData.SelectMoney;
@@ -225,6 +227,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedArmy.HasValue)
         {
             Stat.instance.army += selectedArmy.Value;
+            selectedValues.Add($"Army: {selectedArmy.Value}");
         }
         else
         {
@@ -235,6 +238,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedMoney.HasValue)
         {
             Stat.instance.money += selectedMoney.Value;
+            selectedValues.Add($"Money: {selectedMoney.Value}");
         }
         else
         {
@@ -245,6 +249,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedFaith.HasValue)
         {
             Stat.instance.faith += selectedFaith.Value;
+            selectedValues.Add($"Faith: {selectedFaith.Value}");
         }
         else
         {
@@ -255,6 +260,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedScience.HasValue)
         {
             Stat.instance.science += selectedScience.Value;
+            selectedValues.Add($"Science: {selectedScience.Value}");
         }
         else
         {
@@ -265,11 +271,15 @@ public class EventPageUI : MonoBehaviour
         if (selectedPolitics.HasValue)
         {
             Stat.instance.politics += selectedPolitics.Value;
+            selectedValues.Add($"Politics: {selectedPolitics.Value}");
         }
         else
         {
             Debug.Log("SelectPolitics는 null입니다.");
         }
+        // 임시 배열의 내용을 하나의 문자열로 결합하여 출력
+        string selectedValuesText = string.Join(", ", selectedValues);
+        displayReportStat.text = selectedValuesText;
     }
 
 }
