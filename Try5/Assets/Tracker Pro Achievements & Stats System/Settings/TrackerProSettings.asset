@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7256a16dc80d174db4ec3abb4b1e603, type: 3}
+  m_Name: TrackerProSettings
+  m_EditorClassIdentifier: 
+  secretAchievementTitle: ??
+  secretAchievementDescription: ??
+  secretRewardString: ??
+  achievementElementUI: {fileID: 6483397350491207848, guid: 2f6fea5ec4b12274b9200f46f7104c3a, type: 3}
+  statElementUI: {fileID: 1946882017948265528, guid: f609c55959dd0864287b28f9990a1d10, type: 3}
+  autosave: 1
+  defaultSpriteForAchievements: {fileID: 21300000, guid: 651194fb25e979f449799cfae56d4515, type: 3}

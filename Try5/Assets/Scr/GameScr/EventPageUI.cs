@@ -27,7 +27,9 @@ public class EventPageUI : MonoBehaviour
 
     public Text displayReportStat;
 
+    public StatGage _gage;
 
+   
     void Start()
     {
         selectPageObj.SetActive(false);
@@ -214,6 +216,7 @@ public class EventPageUI : MonoBehaviour
     public void SelectStatUp()
     {
 
+        _gage.BeforeUpdateRadarChart();
         var reportData = ReportDataManager.Instance.useReportData[eventRandomToint];
         List<string> selectedValues = new List<string>();
         // 각 필드를 nullable int로 선언
@@ -280,6 +283,8 @@ public class EventPageUI : MonoBehaviour
         // 임시 배열의 내용을 하나의 문자열로 결합하여 출력
         string selectedValuesText = string.Join(", ", selectedValues);
         displayReportStat.text = selectedValuesText;
+    
+        StartCoroutine(_gage.AfterUpdateRadarChart());
     }
-
+    
 }

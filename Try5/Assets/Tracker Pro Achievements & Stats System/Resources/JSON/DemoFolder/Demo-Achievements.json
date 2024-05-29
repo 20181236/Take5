@@ -1,0 +1,112 @@
+{
+    "AchievementList": [
+        {
+            "id": 0,
+            "typeOfAchievement": 1,
+            "title": "Killing Machine",
+            "icon": {
+                "instanceID": 0
+            },
+            "iconPath": "",
+            "trimmedIconPath": "",
+            "description": "Get 100 Kills",
+            "value": 87,
+            "neededValue": 100,
+            "displayAsPercentage": false,
+            "points": 10,
+            "completed": false,
+            "secret": false,
+            "completedDateTime": "2024-01-02T09:21:59"
+        },
+        {
+            "id": 1,
+            "typeOfAchievement": 2,
+            "title": "Making Ground",
+            "icon": {
+                "instanceID": 0
+            },
+            "iconPath": "",
+            "trimmedIconPath": "",
+            "description": "Reached the Kingdom of Cruxis Waypoint",
+            "value": 25,
+            "neededValue": 25,
+            "displayAsPercentage": true,
+            "points": 20,
+            "completed": false,
+            "secret": false,
+            "completedDateTime": ""
+        },
+        {
+            "id": 2,
+            "typeOfAchievement": 2,
+            "title": "Bravely Ran Away",
+            "icon": {
+                "instanceID": 0
+            },
+            "iconPath": "",
+            "trimmedIconPath": "",
+            "description": "Ran Away From the Orcs",
+            "value": 100,
+            "neededValue": 100,
+            "displayAsPercentage": false,
+            "points": 25,
+            "completed": true,
+            "secret": false,
+            "completedDateTime": ""
+        },
+        {
+            "id": 3,
+            "typeOfAchievement": 1,
+            "title": "Test4",
+            "icon": {
+                "instanceID": 0
+            },
+            "iconPath": "",
+            "trimmedIconPath": "",
+            "description": "4th Test Desc",
+            "value": 38,
+            "neededValue": 53,
+            "displayAsPercentage": false,
+            "points": 10,
+            "completed": false,
+            "secret": true,
+            "completedDateTime": ""
+        },
+        {
+            "id": 4,
+            "typeOfAchievement": 2,
+            "title": "Test5",
+            "icon": {
+                "instanceID": 0
+            },
+            "iconPath": "",
+            "trimmedIconPath": "",
+            "description": "5th Test Desc",
+            "value": 10,
+            "neededValue": 10,
+            "displayAsPercentage": false,
+            "points": 10,
+            "completed": true,
+            "secret": true,
+            "completedDateTime": ""
+        },
+        {
+            "id": 6,
+            "typeOfAchievement": 1,
+            "title": "New User Test",
+            "icon": {
+                "instanceID": 0
+            },
+            "iconPath": "",
+            "trimmedIconPath": "",
+            "description": "New User Desc",
+            "value": 19,
+            "neededValue": 100,
+            "displayAsPercentage": true,
+            "points": 10,
+            "completed": false,
+            "secret": false,
+            "completedDateTime": "02/01/2024 13:25:05"
+        }
+    ]
+}
