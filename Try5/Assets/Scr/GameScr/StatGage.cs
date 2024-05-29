@@ -44,7 +44,7 @@ public class StatGage : MonoBehaviour
     public void InitializeRadarChart()
     {
         // graphData를 레이더 차트의 데이터로 설정합니다.
-        radarChart.data[0].values = new List<float> { Stat.instance.money / 1000000f, Stat.instance.army / 1000000f, Stat.instance.faith / 1000000f, Stat.instance.science / 1000000f, Stat.instance.politics / 1000000f };
+        radarChart.data[0].values = new List<float> { Stat.instance.money / 1000f, Stat.instance.army / 1000f, Stat.instance.faith / 1000f, Stat.instance.science / 1000f, Stat.instance.politics / 1000f };
 
         // 새로운 데이터를 반영하도록 레이더 차트를 업데이트합니다.
         radarChart.SetVerticesDirty();
@@ -64,16 +64,16 @@ public class StatGage : MonoBehaviour
         if (radarChart.data.Count > 0)
         {
             // 기존 graph 데이터 값을 업데이트합니다.
-            //radarChart.data[0].values = new List<float> { Stat.instance.money / 1000000f, Stat.instance.army / 1000000f, Stat.instance.faith / 1000000f, Stat.instance.science / 1000000f, Stat.instance.politics / 1000000f };
+            //radarChart.data[0].values = new List<float> { Stat.instance.money / 1000f, Stat.instance.army / 1000f, Stat.instance.faith / 1000f, Stat.instance.science / 1000f, Stat.instance.politics / 1000f };
             while (lerpedValue<2.0f)
             {
                 lerpedValue += Time.deltaTime;// * 0.1f;
                 radarChart.SetVerticesDirty();
-                radarChart.data[0].values[0] = Mathf.Lerp(tmp_Money / 1000000f, Stat.instance.money / 1000000f, Time.deltaTime * 2f);
-                radarChart.data[0].values[1] = Mathf.Lerp(tmp_Army / 1000000f, Stat.instance.army / 1000000f, Time.deltaTime * 2f);
-                radarChart.data[0].values[2] = Mathf.Lerp(tmp_Faith / 1000000f, Stat.instance.faith / 1000000f, Time.deltaTime * 2f);
-                radarChart.data[0].values[3] = Mathf.Lerp(tmp_Science / 1000000f, Stat.instance.science / 1000000f, Time.deltaTime * 2f);
-                radarChart.data[0].values[4] = Mathf.Lerp(tmp_Politics / 1000000f, Stat.instance.politics / 1000000f, Time.deltaTime * 2f);
+                radarChart.data[0].values[0] = Mathf.Lerp(tmp_Money / 1000f, Stat.instance.money / 1000f, Time.deltaTime * 2f);
+                radarChart.data[0].values[1] = Mathf.Lerp(tmp_Army / 1000f, Stat.instance.army / 1000f, Time.deltaTime * 2f);
+                radarChart.data[0].values[2] = Mathf.Lerp(tmp_Faith / 1000f, Stat.instance.faith / 1000f, Time.deltaTime * 2f);
+                radarChart.data[0].values[3] = Mathf.Lerp(tmp_Science / 1000f, Stat.instance.science / 1000f, Time.deltaTime * 2f);
+                radarChart.data[0].values[4] = Mathf.Lerp(tmp_Politics / 1000f, Stat.instance.politics / 1000f, Time.deltaTime * 2f);
                 yield return null;
             }
 
