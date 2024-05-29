@@ -14,9 +14,10 @@ public class UiStat : MonoBehaviour
     //     public Text displayText5;
     //     public Text displayText6;
     //     public Text displayText7;
-    //     public Text displayText8;
+    
 
-    //     public Text displayText9;
+    public Text displayTrunText;
+    public Text displayCountingTurn;
 
     public Slider staminaSlider;
 
@@ -41,7 +42,8 @@ public class UiStat : MonoBehaviour
         displayText3.text = Stat.instance.science.ToString();
         displayText4.text = Stat.instance.politics.ToString();
 
-        //     displayText9.text = Stat.instance.curTurn.ToString();
+        displayTrunText.text = Stat.instance.curTurn.ToString();
+        displayCountingTurn.text=Stat.instance.countingTurn.ToString();
     }
 
     void UpdateUiSlider()
