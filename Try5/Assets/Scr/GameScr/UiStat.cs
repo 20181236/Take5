@@ -43,7 +43,7 @@ public class UiStat : MonoBehaviour
         displayText4.text = Stat.instance.politics.ToString();
 
         displayTrunText.text = Stat.instance.curTurn.ToString();
-        displayCountingTurn.text=Stat.instance.countingTurn.ToString();
+        displayCountingTurn.text=Stat.instance.year.ToString()+"년";
     }
 
     void UpdateUiSlider()

@@ -99,7 +99,7 @@ public class Stat : MonoBehaviour
 
     public void NextYear()
     {
-        if(curTurn<=0)
+        if(curTurn==0)
         {
             year+=1;
             curTurn = 50;
