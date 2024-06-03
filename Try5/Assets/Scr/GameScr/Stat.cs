@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Stat : MonoBehaviour
 {
@@ -102,14 +103,14 @@ public class Stat : MonoBehaviour
         if(curTurn==0)
         {
             year+=1;
-            curTurn = 52;
+            curTurn = 5;
         }
     }
     public void EndingCheck()
     {
         if(year==2)
         {
-
+            SceneManager.LoadScene("Bridge");
         }
     }
 }

@@ -32,7 +32,7 @@ public class GrowBt : MonoBehaviour
 
     private float xPosition;
     Vector3 arrowPosition;
-    Vector3 plusPosition = new Vector3(0.0f, 7.0f, 0.0f);
+    Vector3 plusPosition = new Vector3(0.0f, 10.0f, 0.0f);
 
     public List<GameObject> backgrounds; // 배경화면 오브젝트들을 담을 리스트
     private int currentBackgroundIndex = 0; // 현재 보여지는 배경화면 인덱스
