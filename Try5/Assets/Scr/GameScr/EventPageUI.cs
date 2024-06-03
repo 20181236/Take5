@@ -230,7 +230,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedArmy.HasValue)
         {
             Stat.instance.army += selectedArmy.Value;
-            selectedValues.Add($"병력 : {selectedArmy.Value}");
+            selectedValues.Add($"Army: {selectedArmy.Value}");
         }
         else
         {
@@ -241,7 +241,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedMoney.HasValue)
         {
             Stat.instance.money += selectedMoney.Value;
-            selectedValues.Add($"재력 : {selectedMoney.Value}");
+            selectedValues.Add($"Money: {selectedMoney.Value}");
         }
         else
         {
@@ -252,7 +252,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedFaith.HasValue)
         {
             Stat.instance.faith += selectedFaith.Value;
-            selectedValues.Add($"신도: {selectedFaith.Value}");
+            selectedValues.Add($"Faith: {selectedFaith.Value}");
         }
         else
         {
@@ -263,7 +263,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedScience.HasValue)
         {
             Stat.instance.science += selectedScience.Value;
-            selectedValues.Add($"과학력: {selectedScience.Value}");
+            selectedValues.Add($"Science: {selectedScience.Value}");
         }
         else
         {
@@ -274,7 +274,7 @@ public class EventPageUI : MonoBehaviour
         if (selectedPolitics.HasValue)
         {
             Stat.instance.politics += selectedPolitics.Value;
-            selectedValues.Add($"정치력: {selectedPolitics.Value}");
+            selectedValues.Add($"Politics: {selectedPolitics.Value}");
         }
         else
         {

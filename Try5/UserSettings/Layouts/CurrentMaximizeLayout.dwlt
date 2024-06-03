@@ -25,7 +25,15 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 2734
+=======
+  controlID: 10035
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+  controlID: 10035
+>>>>>>> parent of c523d9f (ending 1 끝)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,21 +199,29 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: fce4ffff04f4ffff54f4fffffcf6ffff08f7ffff14f7ffff42f7ffff50f7ffff6cf7fffffaf7ffff34f9ffffe2f9ffff06fbffff6a6d00002a7f0000
+=======
+      m_ExpandedIDs: 0a63ffff5863ffffee65fffff265ffff1666ffff1c66ffff3066ffff0269ffff686bffff2071ffff7071ffffde73ffffea73ffff1874ffff2674ffff4274ffff1475ffffde7affff2c7bffffec7dfffffa7dffff167effff6e7effff6afaffff24640000526400007a640000886400008e640000246500002e650000366500004c65000054650000ae650000b2650000d4650000f4650000a666000052a00000baa00000c0a0000068a10000d4a10000
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+      m_ExpandedIDs: 0a63ffff5863ffffee65fffff265ffff1666ffff1c66ffff3066ffff0269ffff686bffff2071ffff7071ffffde73ffffea73ffff1874ffff2674ffff4274ffff1475ffffde7affff2c7bffffec7dfffffa7dffff167effff6e7effff6afaffff24640000526400007a640000886400008e640000246500002e650000366500004c65000054650000ae650000b2650000d4650000f4650000a666000052a00000baa00000c0a0000068a10000d4a10000
+>>>>>>> parent of c523d9f (ending 1 끝)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Fade
+        m_OriginalName: Fade
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 41688
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 3}
       m_SearchString: 
@@ -239,7 +255,15 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 2690
+=======
+  controlID: 9991
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+  controlID: 9991
+>>>>>>> parent of c523d9f (ending 1 끝)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -689,9 +713,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.00018310547, y: 0.95443153, z: 90}
+    m_Target: {x: -54.3137, y: 1, z: 90}
     speed: 2
-    m_Value: {x: 0.00018310547, y: 0.95443153, z: 90}
+    m_Value: {x: -54.3137, y: 1, z: 90}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -737,13 +761,25 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.019208368, y: -0.0033024673, z: 0.000053297663, w: -0.9998255}
+    m_Target: {x: -0.04019469, y: -0.01529042, z: 0.0006062356, w: -0.99908924}
     speed: 2
-    m_Value: {x: -0.019208072, y: -0.0033024165, z: 0.000053296844, w: -0.9998101}
+    m_Value: {x: -0.040194105, y: -0.015290197, z: 0.0006062268, w: -0.9990747}
   m_Size:
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 123.06319
     speed: 2
     m_Value: 123.06319
+=======
+    m_Target: 40.267036
+    speed: 2
+    m_Value: 40.267036
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+    m_Target: 40.267036
+    speed: 2
+    m_Value: 40.267036
+>>>>>>> parent of c523d9f (ending 1 끝)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -910,7 +946,15 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scr/GameScr
+=======
+    - Assets/Scenes
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+    - Assets/Scenes
+>>>>>>> parent of c523d9f (ending 1 끝)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -918,16 +962,37 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 75
   m_LastFolders:
+<<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scr/GameScr
+=======
+  - Assets/Scenes
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+  - Assets/Scenes
+>>>>>>> parent of c523d9f (ending 1 끝)
   m_LastFoldersGridSize: 75
   m_LastProjectPath: D:\sotugyo\Take5\Try5
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 314}
     m_SelectedIDs: 2e680000
     m_LastClickedID: 26670
     m_ExpandedIDs: 00000000e0670000e2670000e4670000e6670000e8670000ea670000ec670000ee670000f0670000f2670000f4670000f6670000f8670000fa670000fc670000fe6700000068000000ca9a3b
+=======
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
+    scrollPos: {x: 0, y: 318}
+    m_SelectedIDs: f06a0000
+    m_LastClickedID: 27376
+    m_ExpandedIDs: 00000000ae6a0000b06a0000b26a0000b46a0000b66a0000b86a0000ba6a0000bc6a0000be6a0000c06a0000c26a0000c46a0000c66a000000ca9a3b
+<<<<<<< HEAD
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -955,7 +1020,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e0670000e2670000e4670000e6670000e8670000ea670000ec670000ee670000f0670000f2670000f4670000f6670000f8670000fa670000fc670000fe6700000068000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000ae6a0000b06a0000b26a0000b46a0000b66a0000b86a0000ba6a0000bc6a0000be6a0000c06a0000c26a0000c46a0000c66a000000ca9a3b
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+    m_ExpandedIDs: 00000000ae6a0000b06a0000b26a0000b46a0000b66a0000b86a0000ba6a0000bc6a0000be6a0000c06a0000c26a0000c46a0000c66a000000ca9a3b
+>>>>>>> parent of c523d9f (ending 1 끝)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -980,10 +1053,23 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 887e0000
     m_LastClickedInstanceID: 32392
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300006e5e00000c6100008a7d00005a5b0000d26100008e5f0000905f00002e5a0000ee5d00003a5e0000945d000000000000e05d0000e4660000a8800000285f0000145f00007c90000062800000
+=======
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300006e5e00000c6100008a7d00005a5b0000d26100008e5f0000905f00002e5a0000ee5d00003a5e0000945d000000000000e05d0000e4660000a8800000285f0000145f00007c900000
+<<<<<<< HEAD
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1064,8 +1150,8 @@ MonoBehaviour:
     y: 0
     width: 334
     height: 767
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -1111,7 +1197,15 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 32392
+=======
+  m_LastInspectedObjectInstanceID: -1
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
+  m_LastInspectedObjectInstanceID: -1
+>>>>>>> parent of c523d9f (ending 1 끝)
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
