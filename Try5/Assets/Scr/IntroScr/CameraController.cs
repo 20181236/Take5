@@ -74,7 +74,7 @@ public class CameraController : MonoBehaviour
     IEnumerator LoadNextScene()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(nextSceneName); // nextSceneName 변수로 씬 로드
     }
 
     Vector3 GetCameraPositionForImage(int index)

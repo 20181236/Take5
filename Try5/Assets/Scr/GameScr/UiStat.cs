@@ -42,7 +42,7 @@ public class UiStat : MonoBehaviour
         displayText3.text = Stat.instance.science.ToString();
         displayText4.text = Stat.instance.politics.ToString();
 
-        displayTrunText.text = Stat.instance.curTurn.ToString();
+        displayTrunText.text = "현재 턴 : " + Stat.instance.curTurn.ToString();
         displayCountingTurn.text=Stat.instance.year.ToString()+"년";
     }
 
