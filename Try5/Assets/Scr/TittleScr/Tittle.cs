@@ -21,7 +21,7 @@ public class Tittle : MonoBehaviour
     
     public void LoadGame()
     {
-        SceneManager.LoadScene("GameMain");
+        SceneManager.LoadScene("Intro");
     }
     public void GameExit()
 {

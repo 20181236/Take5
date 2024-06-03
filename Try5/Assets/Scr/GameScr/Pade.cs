@@ -18,7 +18,7 @@ public IEnumerator FadeInStart()
         FadePannel.GetComponent<Image>().color = c;
         yield return null;
     }
-    yield return new WaitForSeconds(1);
+    yield return new WaitForSeconds(0.5f);
     FadePannel.SetActive(false);
 }
     public void fade()

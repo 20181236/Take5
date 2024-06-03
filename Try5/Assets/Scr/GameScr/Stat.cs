@@ -30,7 +30,7 @@ public class Stat : MonoBehaviour
     public int curTurn=52;
     public int countingTurn=0;
 
-    public int year=0;
+    public int year=1;
     //public int givedTrun=12;
 
     void Awake()
@@ -102,7 +102,14 @@ public class Stat : MonoBehaviour
         if(curTurn==0)
         {
             year+=1;
-            curTurn = 50;
+            curTurn = 52;
+        }
+    }
+    public void EndingCheck()
+    {
+        if(year==2)
+        {
+
         }
     }
 }
