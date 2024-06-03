@@ -41,4 +41,5 @@ public class SeasonManager : MonoBehaviour
     {
         
     }
+    //충돌이 일어났으니까 일단 이런데 희생시키자
 }

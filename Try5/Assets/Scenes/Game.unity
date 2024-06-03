@@ -1888,7 +1888,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
 --- !u!1 &447348171
@@ -1928,6 +1931,9 @@ Transform:
   m_Father: {fileID: 1341221061}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
 >>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -2360,6 +2366,7 @@ MonoBehaviour:
   eventPageUIClass: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &497375806
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +2497,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499022270}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
 =======
@@ -5186,7 +5195,11 @@ RectTransform:
   m_Pivot: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1078642088
+=======
+--- !u!1 &1053009549
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!1 &1053009549
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5202,6 +5215,7 @@ GameObject:
   m_Component:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1078642089}
   - component: {fileID: 1078642091}
   - component: {fileID: 1078642090}
@@ -5210,12 +5224,17 @@ GameObject:
 =======
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
   - component: {fileID: 1053009550}
   - component: {fileID: 1053009552}
   - component: {fileID: 1053009551}
   m_Layer: 0
   m_Name: Data Point 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
 >>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5226,7 +5245,11 @@ GameObject:
   m_IsActive: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1078642089
+=======
+--- !u!224 &1053009550
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!224 &1053009550
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5240,7 +5263,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1078642088}
+=======
+  m_GameObject: {fileID: 1053009549}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1053009549}
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5254,6 +5281,7 @@ RectTransform:
   m_Children: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 190102440}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5265,6 +5293,8 @@ RectTransform:
 =======
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
   m_Father: {fileID: 447348172}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5274,6 +5304,9 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1053009551
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
 >>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5284,7 +5317,11 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1078642088}
+=======
+  m_GameObject: {fileID: 1053009549}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1053009549}
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5306,7 +5343,11 @@ MonoBehaviour:
   rotation: 38
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &1078642091
+=======
+--- !u!222 &1053009552
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!222 &1053009552
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5318,6 +5359,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1078642088}
@@ -5357,6 +5399,10 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+  m_GameObject: {fileID: 1053009549}
+  m_CullTransparentMesh: 1
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1053009549}
   m_CullTransparentMesh: 1
@@ -5442,7 +5488,11 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1133250208
+=======
+--- !u!1 &1132954756
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!1 &1132954756
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5458,9 +5508,15 @@ GameObject:
   m_Component:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1133250209}
   - component: {fileID: 1133250211}
   - component: {fileID: 1133250210}
+=======
+  - component: {fileID: 1132954757}
+  - component: {fileID: 1132954759}
+  - component: {fileID: 1132954758}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   - component: {fileID: 1132954757}
   - component: {fileID: 1132954759}
@@ -5480,7 +5536,11 @@ GameObject:
   m_IsActive: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1133250209
+=======
+--- !u!224 &1132954757
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!224 &1132954757
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5494,7 +5554,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1133250208}
+=======
+  m_GameObject: {fileID: 1132954756}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1132954756}
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5508,7 +5572,11 @@ RectTransform:
   m_Children: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 68359474}
+=======
+  m_Father: {fileID: 42291835}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_Father: {fileID: 42291835}
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5523,7 +5591,11 @@ RectTransform:
   m_Pivot: {x: 0, y: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1133250210
+=======
+--- !u!114 &1132954758
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!114 &1132954758
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5537,7 +5609,11 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1133250208}
+=======
+  m_GameObject: {fileID: 1132954756}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1132954756}
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5573,7 +5649,11 @@ MonoBehaviour:
   m_Text: Science
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &1133250211
+=======
+--- !u!222 &1132954759
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!222 &1132954759
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -5587,7 +5667,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1133250208}
+=======
+  m_GameObject: {fileID: 1132954756}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1132954756}
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -6052,7 +6136,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
 --- !u!1 &1286431154
@@ -6231,8 +6318,13 @@ RectTransform:
   m_Children:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 68359474}
   - {fileID: 190102440}
+=======
+  - {fileID: 42291835}
+  - {fileID: 447348172}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   - {fileID: 42291835}
   - {fileID: 447348172}
@@ -6826,6 +6918,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1516819704
 GameObject:
   m_ObjectHideFlags: 0
@@ -6905,6 +6998,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516819704}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
 =======
@@ -7118,7 +7213,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
 --- !u!1 &1624483255
@@ -7847,7 +7945,11 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1933098606
+=======
+--- !u!1 &1905091552
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!1 &1905091552
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -7861,6 +7963,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 1933098607}
@@ -7882,6 +7985,13 @@ GameObject:
   m_Layer: 0
   m_Name: Data Point 4
 >>>>>>> parent of c523d9f (ending 1 끝)
+=======
+  - component: {fileID: 1905091553}
+  - component: {fileID: 1905091555}
+  - component: {fileID: 1905091554}
+  m_Layer: 0
+  m_Name: Data Point 4
+>>>>>>> parent of c523d9f (ending 1 끝)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7889,7 +7999,11 @@ GameObject:
   m_IsActive: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &1933098607
+=======
+--- !u!224 &1905091553
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!224 &1905091553
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -7903,7 +8017,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1933098606}
+=======
+  m_GameObject: {fileID: 1905091552}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1905091552}
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -7915,6 +8033,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 190102440}
@@ -7936,11 +8055,20 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 >>>>>>> parent of c523d9f (ending 1 끝)
+=======
+  m_Father: {fileID: 447348172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+>>>>>>> parent of c523d9f (ending 1 끝)
   m_AnchoredPosition: {x: 113.12879, y: 36.75777}
   m_SizeDelta: {x: 31.012133, y: 31.012133}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905091554
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c523d9f (ending 1 끝)
+=======
 >>>>>>> parent of c523d9f (ending 1 끝)
 =======
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -7951,7 +8079,11 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1933098606}
+=======
+  m_GameObject: {fileID: 1905091552}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1905091552}
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -7973,7 +8105,11 @@ MonoBehaviour:
   rotation: 38
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!222 &1933098609
+=======
+--- !u!222 &1905091555
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
 --- !u!222 &1905091555
 >>>>>>> parent of c523d9f (ending 1 끝)
@@ -7987,7 +8123,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1933098606}
+=======
+  m_GameObject: {fileID: 1905091552}
+>>>>>>> parent of c523d9f (ending 1 끝)
 =======
   m_GameObject: {fileID: 1905091552}
 >>>>>>> parent of c523d9f (ending 1 끝)
