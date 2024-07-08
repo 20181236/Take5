@@ -4,11 +4,11 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour
 {
-    public Camera mainCamera; // 메인 카메라
+    public Camera mainCamera; // 주 카메라
     public RectTransform[] imageTransforms; // 이미지 RectTransform 배열
     public float transitionDuration = 1.0f; // 이미지 전환 시간
     public float delayBeforeSceneChange = 5.0f; // 씬 전환 전 대기 시간
-    public string nextSceneName; // 다음으로 이동할 씬의 이름
+    public string nextSceneName; // 다음 씬으로 이동할 씬 이름
     public AnimationCurve transitionCurve; // 애니메이션 곡선
 
     private int currentImageIndex = 0;
@@ -20,7 +20,7 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        // 처음 이미지만 활성화
+        // 처음 이미지들 비활성화
         for (int i = 1; i < imageTransforms.Length; i++)
         {
             imageTransforms[i].gameObject.SetActive(false);
@@ -61,7 +61,7 @@ public class CameraController : MonoBehaviour
         }
         else
         {
-            // 이미지 전환이 완료되면 씬 전환 대기 시작
+            // 이미지 전환이 완료되면 씬 전환 대기
             delayTimer += Time.deltaTime;
             if (delayTimer >= delayBeforeSceneChange && !isDelayingSceneChange)
             {
@@ -74,7 +74,7 @@ public class CameraController : MonoBehaviour
     IEnumerator LoadNextScene()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(nextSceneName); // nextSceneName 씬으로 씬 이동
     }
 
     Vector3 GetCameraPositionForImage(int index)

@@ -108,7 +108,7 @@ public class Stat : MonoBehaviour
     }
     public void EndingCheck()
     {
-        if(year==2)
+        if(year>=2)
         {
             SceneManager.LoadScene("Bridge");
         }

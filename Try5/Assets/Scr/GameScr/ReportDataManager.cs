@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 using UnityEngine.UI;
 
 [System.Serializable]
@@ -90,7 +91,8 @@ public class ReportDataManager : MonoBehaviour
 
     public AllReportData allReportData;
     public List<ReportData> useReportData = new List<ReportData>(); // 사용할 ReportData 리스트
-    private const string jsonFilePath = "/DataTable/EventTest3.json";
+    public string filePath = "Assets/Resource/DataTable/EventTest3.json";
+    //public const string filePath = "DataTable/EventTest3.json";
 
     void Awake()
     {
@@ -113,32 +115,24 @@ public class ReportDataManager : MonoBehaviour
 
     void LoadJsonData()
     {
-        TextAsset jsonTextFile = Resources.Load<TextAsset>(jsonFilePath); // JSON 파일 읽기
-        if (jsonTextFile != null)
+        string jsonContent = File.ReadAllText(filePath); // JSON 파일 읽기
+        allReportData = JsonUtility.FromJson<AllReportData>(jsonContent); // JSON 파싱
+        if (allReportData != null && allReportData.reportList != null)
         {
-            string jsonContent = jsonTextFile.text;
-            allReportData = JsonUtility.FromJson<AllReportData>(jsonContent); // JSON 파싱
-            if (allReportData != null && allReportData.reportList != null)
-            {
-                Debug.Log("Loaded " + allReportData.reportList.Count + " report entries.");
+            Debug.Log("Loaded " + allReportData.reportList.Count + " report entries.");
 
-                // useReportData에 모든 ReportData 추가
-                useReportData.AddRange(allReportData.reportList);
+            // useReportData에 모든 ReportData 추가
+            useReportData.AddRange(allReportData.reportList);
 
-                foreach (var eventDataItem in allReportData.reportList)
-                {
-                    Debug.Log("Processing report data: " + eventDataItem.Name);
-                    // 추가적인 처리나 로직 수행
-                }
-            }
-            else
+            foreach (var eventDataItem in allReportData.reportList)
             {
-                Debug.LogError("Failed to load or invalid report data.");
+                Debug.Log("Processing report data: " + eventDataItem.Name);
+                // 추가적인 처리나 로직 수행
             }
         }
         else
         {
-            Debug.LogError("Failed to load JSON file from Resources.");
+            Debug.LogError("Failed to load or invalid report data.");
         }
     }
 }

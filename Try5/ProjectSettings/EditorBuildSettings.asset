@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Bridge.unity
     guid: 2869518af056f634c8eef71390eab302
   - enabled: 1
-    path: Assets/Scenes/Ending_1.unity
+    path: Assets/Scenes/Ending_0.unity
     guid: e3b7431ad67584f488d0d18fe85af91d
+  - enabled: 1
+    path: Assets/Scenes/Ending_1.unity
+    guid: 9228a306a5e01b546b2b1ed3ad3977f5
+  - enabled: 1
+    path: Assets/Scenes/Ending_2.unity
+    guid: 76e579ab3a9e91a46a0ab830ae339909
   m_configObjects: {}
